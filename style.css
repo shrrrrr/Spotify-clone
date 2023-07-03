@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200;600&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+     font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color:black;
+    height:50px;
+}
+.brand img{
+    height: 35px;
+    width:42px;
+    padding: 7px 0px;
+}
+nav ul{
+    display: flex;
+    list-style:none;
+    align-items:center;
+    
+}
+nav ul li{
+    padding:0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+body{
+    background-color: aliceblue;
+    
+}
+.container{
+    min-height: 75vh;
+    background-color:black;
+    color:white;
+    display:flex;
+    margin:20px auto;
+    border-radius:12px;
+    width: 70%;
+    padding:15px;
+    background-image:url('https://img.freepik.com/free-photo/woman-wearing-headset-looking-camera-sitting-front-plain-yellow-backdrop_23-2148204625.jpg?w=996&t=st=1688373033~exp=1688373633~hmac=476f0d216faa7b3378b96eec50e4f204c42667be5f4581f5c4417f8ef3fdd092');
+}
+
+
+.bottom{
+    position:sticky;
+    height:100px ;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:80vw;
+    cursor: pointer;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    background-color:white;
+    width:80%;
+    color:black;
+    margin:12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:32px;
+
+}
+.songItem img{
+    width:43px;
+    margin:0 23px;
+    border-radius:33px;
+
+}
+.timestamp{
+    padding:0 12px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
